@@ -2,6 +2,13 @@
 
 A Ruby interface to the OpenX XML-RPC API.
 
+== FORK:
+
+This is a fork of bsm-openx-1.9.4.  It contains the following fixes/changes:
+ * Fixed crash if ENV["HOME"] is nil.
+ * Added support for Banner attributes: capping and sessionCapping.
+ * Threadsafety.
+
 == SYNOPSIS:
 
   OpenX.configuration = {
